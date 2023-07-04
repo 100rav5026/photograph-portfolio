@@ -26,10 +26,11 @@ body{
 
 .navbar-options{
     display: flex;
+    width: 100%;
     align-items: center;
     font-size: 25px;
     gap: 4%;
-    margin-left: 50%;
+    margin-left: 52%;
 }
 
 .navbar-options p{
@@ -46,7 +47,7 @@ body{
   }
   
   .line {
-    width: 100%;
+    width: 50%;
     height: 5px;
     background-color: #fff;
     margin-bottom: 4px;
