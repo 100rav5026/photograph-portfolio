@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 import {RxCross1} from 'react-icons/rx'
 import HamBurgerMenu from './HamBurgerMenu';
-import Slideshow from './SlideShow';
 
 const NavigationBar = () => {
 
@@ -26,7 +25,6 @@ const NavigationBar = () => {
           <HamBurgerMenu handleClick={handleClick}/>
         </div>
     </nav>
-    <Slideshow/>
     {isClicked && (
         <div className="dropdown-menu">
           <ul>
