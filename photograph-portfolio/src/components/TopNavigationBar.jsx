@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 import {RxCross1} from 'react-icons/rx'
 import HamBurgerMenu from './HamBurgerMenu';
+import { Link } from 'react-router-dom';
 
 const NavigationBar = () => {
 
@@ -29,9 +30,9 @@ const NavigationBar = () => {
         <div className="dropdown-menu">
           <ul>
             <button onClick={handleClick}><RxCross1/></button>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Studio Rate</li>
+            <li><Link to="/">Home</Link></li>
+            <li><Link to="/about">About Us</Link></li>
+            <li><Link to="/contact">Contact Us</Link></li>
           </ul>
         </div>
       )}
