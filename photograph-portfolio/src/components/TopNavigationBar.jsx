@@ -3,6 +3,7 @@ import { AiOutlinePhone, AiOutlineMail } from 'react-icons/ai';
 import {RxCross1} from 'react-icons/rx'
 import HamBurgerMenu from './HamBurgerMenu';
 import { Link } from 'react-router-dom';
+import Wydanglelogo from '../images/WydangleLogo.png'
 
 const NavigationBar = () => {
 
@@ -16,12 +17,12 @@ const NavigationBar = () => {
     <>
     <nav className="top-navbar">
         <div className="navbar-logo">
-            <img src="/path/to/logo.png" alt="Logo" />
+            <img className = "company-logo" src={Wydanglelogo} alt="Logo"/>
         </div>
         <div className="navbar-options">
           <p>+91 8097975380</p>
           <p><AiOutlinePhone/></p>
-          <p>souravmudaliar19620@gmail.com</p>
+          <p>xyz@gmail.com</p>
           <p><AiOutlineMail/></p>
           <HamBurgerMenu handleClick={handleClick}/>
         </div>

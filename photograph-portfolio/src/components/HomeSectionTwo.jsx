@@ -3,8 +3,6 @@ import {GrFacebook, GrInstagram, GrTwitter} from "react-icons/gr";
 import {BsPinterest} from "react-icons/bs";
 import {IoLogoYoutube} from "react-icons/io";
 
-
-
 const HomeSectionTwo = () => {
     return(
     <div className="Home-Section-two">
