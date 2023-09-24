@@ -30,9 +30,9 @@ const NavigationBar = () => {
         <div className="dropdown-menu">
           <ul>
             <button onClick={handleClick}><RxCross1/></button>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">About Us</Link></li>
-            <li><Link to="/contact">Contact Us</Link></li>
+            <li className="navbar-links"><Link to="/">Home</Link></li>
+            <li className="navbar-links"><Link to="/about">About Us</Link></li>
+            <li className="navbar-links"><Link to="/contact">Contact Us</Link></li>
           </ul>
         </div>
       )}
