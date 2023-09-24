@@ -2,13 +2,18 @@ body{
     margin: 0;
 }
 
+.company-logo{
+  width: 80%;
+  margin-left: 5%;
+}
+
 .top-navbar{
     position: fixed;
     width: 100%;
     z-index: 2;
     display: flex;
     justify-content:space-evenly;
-    height: 100px;
+    height: 15%;
     align-items: center;
     background-color: black;
 }
@@ -30,7 +35,7 @@ body{
     align-items: center;
     font-size: 25px;
     gap: 4%;
-    margin-left: 52%;
+    margin-left: 46%;
 }
 
 .navbar-options p{
@@ -142,6 +147,39 @@ body{
   height: 2%;
 }
 
-.Home-Section-two-para{
-  padding: 10%;
+.Home-Section-Three{
+  display: flex;
+  align-items: center;
+  padding: 4%;
+  gap: 2%;
+  background-color: #FFD700;
+}
+
+.Home-Section-Three-Left{
+  flex-wrap: wrap;
+  width: 60%;
+}
+
+.Home-Section-Three-Left p{
+  font-size: 20px;
+}
+
+.Home-Section-Three-Left h1{
+  font-size: 60px;
+  margin: 0;
+}
+
+.Home-Section-Three-Left h2{
+  margin-bottom: 6%;
+}
+
+.camera-icon{
+  height: 60px;
+  width: 80px;
+  margin-top: 4%;
+}
+
+.Home-Section-Three-Left-bottom{
+  display: flex;
+  gap: 8%;
 }
