@@ -1,14 +1,15 @@
 import { Carousel } from 'react-responsive-carousel';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import homeSliderOne from '../images/homeSliderOne.PNG'
 
 const Slideshow = () => {
     const slides = [
       {
-        image: 'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        image: homeSliderOne,
         caption: 'Slide 1',
       },
       {
-        image: 'https://images.pexels.com/photos/674010/pexels-photo-674010.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1',
+        image: homeSliderOne,
         caption: 'Slide 2',
       },
       // Add more slide objects as needed
@@ -19,7 +20,6 @@ const Slideshow = () => {
         {slides.map((slide, index) => (
           <div key={index}>
             <img src={slide.image} alt={slide.caption} className="carousel-image"/>
-            <p className="legend">{slide.caption}</p>
           </div>
         ))}
       </Carousel>
