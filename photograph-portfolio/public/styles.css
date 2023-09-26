@@ -153,6 +153,7 @@ body{
   padding: 4%;
   gap: 2%;
   background-color: #FFD700;
+  height: 600px;
 }
 
 .Home-Section-Three-Left{
@@ -173,7 +174,7 @@ body{
   margin-bottom: 6%;
 }
 
-.camera-icon{
+.camera-icon, .reel-icon{
   height: 60px;
   width: 80px;
   margin-top: 4%;
@@ -182,4 +183,42 @@ body{
 .Home-Section-Three-Left-bottom{
   display: flex;
   gap: 8%;
+}
+
+.Home-Section-four{
+  display: flex;
+  align-items: center;
+  padding: 4%;
+  gap: 2%;
+  background-color: black;
+  height: 600px;
+}
+
+/* .Home-Section-four-Left{
+  width: 300%;
+} */
+
+.Home-Section-four-Right{
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.Home-Section-four-Left{
+  width: 150%;
+}
+
+.Home-Section-four-Right h2{
+  margin-bottom: 6%;
+}
+
+.Home-Section-four-Right h1{
+  font-size: 60px;
+  margin: 0;
+}
+
+.Home-Section-four-right-bottom{
+  display: flex;
+  gap: 4%;
 }

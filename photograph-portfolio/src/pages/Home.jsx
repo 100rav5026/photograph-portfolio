@@ -1,6 +1,7 @@
 import Slideshow from "../components/SlideShow";
 import HomeSectionTwo from "../components/HomeSectionTwo";
 import HomeSectionThree from "../components/HomeSectionThree";
+import HomeSectionFour from "../components/HomeSectionFour";
 
 const Home = () => {
     return (
@@ -8,6 +9,7 @@ const Home = () => {
       <Slideshow/>
       <HomeSectionTwo/>
       <HomeSectionThree/>
+      <HomeSectionFour/>
     </>
     )
   };
